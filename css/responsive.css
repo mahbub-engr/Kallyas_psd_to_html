@@ -1,0 +1,136 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  .header-area {
+    width: 80%;
+    margin: auto;
+  }
+  .container {
+    width: 90%;
+  }
+  .main-menu ul li {
+    display: inline-block;
+    padding-left: 40px;
+  }
+  .display-none {
+    display: none;
+  }
+  .feature-content {
+    padding: 25px 20px;
+
+  }
+  .feature-content h4 {
+    padding: 20px 0;
+  }
+  .features-img {
+  width: 100%;
+  }
+  .features-icon {
+    padding-bottom: 20px;
+  }
+  .features-icon a img {
+    width: 25px;
+  }
+  .bussiness-area {
+    width: 100%;
+  }
+  .bussiness-idea {
+    margin-left: 15px;
+  }
+  .bussiness-idea h3 {
+    font-size: 35px;
+    margin-bottom: 50px;
+  }
+  .bussiness-img {
+    text-align: center;
+  
+  }
+  .service-left {
+    margin-left: 20px;
+  }
+  .mid-menu ul li {
+    margin-left: 20px;
+  }
+
+  .img-area .img {
+    width: 24%;
+    margin: 1px;
+  }
+  .img-area .img img {
+    width: 100%;
+  }
+  .design-area {
+    background-size: cover;
+    background-position: center right;
+  }
+  .design {
+    margin: auto;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  header {
+    width:72% ;
+  }
+  .container {
+    width: 72%;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}
